@@ -11,7 +11,8 @@ Finally, enter the following command in the prompt: "python -m streamlit run app
 
 Once the tool is launched, you can easily input the parameters of your choice and click the Predict button to obtain results.
 
-  Lưu ý:
+  Notes:
+  
   *** Make sure you have installed all the required libraries used in the App.py file. You can do this by opening App.py with Notepad, checking which libraries are imported, and installing them accordingly. You may also install the required libraries using the Library_essential.txt file. Simply copy each library listed in the file and paste it into the Anaconda Prompt to install them one by one.
   
   *** Sometimes server.port 8501 may not work. Since this is the default port of the Streamlit library, please refer to the Streamlit documentation if you encounter error.
