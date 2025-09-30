@@ -1,2 +1,20 @@
 # COMBINED-LOAD-ON-CAISSON-WITH-DATA-DRIVEN-MODEL
 Includes a GUI for entering caisson parameters to predict load capacity
+
+First, it should be clarified that the GUI runs through the Anaconda Prompt, therefore you need to install Anaconda beforehand.
+
+Second, you need to download the file thebestmodel.pkl to establish a "calculation factory." Once this factory is set up, any input data will be processed through it and return the corresponding prediction results.
+
+Third, open the Anaconda Prompt and navigate to the directory that contains the App.py file.
+
+Finally, enter the following command in the prompt: "python -m streamlit run app.py --server.port 8501"
+
+Once the tool is launched, you can easily input the parameters of your choice and click the Predict button to obtain results.
+
+  Lưu ý:
+  *** Make sure you have installed all the required libraries used in the App.py file. You can do this by opening App.py with Notepad, checking which libraries are imported, and installing them accordingly.
+  
+  *** Sometimes server.port 8501 may not work. Since this is the default port of the Streamlit library, please refer to the Streamlit documentation if you encounter error.
+
+  *** Keep in mind that the predictive model achieves an accuracy level of R² = 99.45%, which means the results should be interpreted as predictions.
+
