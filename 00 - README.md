@@ -21,11 +21,15 @@ Once the tool is launched, you can easily input the parameters of your choice an
 
 
 Development Team:
-Assoc. Prof.: Van Qui Lai, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
-Dr. Sc.:      Duy Tan Tran, Ho Chi Minh City University of Transport
-Msc.:         Huu Nghia Bui, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
-Msc.:         Hoang Nghi Le, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
-Msc.:         Viet Dat Le, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
-Msc.:         Hoang Khang Pham, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
-Msc.:         Quoc Bao Nguyen, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
-Msc.:         Ngoc Truong Nguyen, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
+
+Assoc. Prof.:   Van Qui Lai, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
+
+Assoc. Prof.:   Suraparb Keawsawasvong, Thammasat School of Engineering, Thammasat University
+
+Dr. Sc.:        Duy Tan Tran, Ho Chi Minh City University of Transport
+
+PhD. Candidate: Duc Quy Le, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
+
+Msc. Student:   Huu Nghia Bui, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
+
+Msc.:           Nhat Tan Duong, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
