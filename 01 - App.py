@@ -177,4 +177,3 @@ if not st.session_state.results.empty:
     render_results_table_white(st.session_state.results)
     csv_bytes = st.session_state.results.to_csv(index=False).encode("utf-8")
     st.download_button("📥 Download CSV", csv_bytes, "prediction_results.csv", "text/csv")
-
