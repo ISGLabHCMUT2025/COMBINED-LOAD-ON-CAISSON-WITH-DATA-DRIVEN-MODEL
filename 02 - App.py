@@ -49,18 +49,15 @@ st.sidebar.header("Banner settings")
 duo_height_px = st.sidebar.slider("Top banner max height (px)", min_value=120, max_value=400, value=220, step=10)
 left_name  = st.sidebar.text_input("Left image filename",  value="Problem_definition_1.svg")
 right_name = st.sidebar.text_input("Right image filename", value="Problem_definition_2.svg")
-logo_name  = st.sidebar.text_input("Bottom logo filename", value="Logo_Lab.svg")
 
 root_dir = Path(__file__).parent
 left_path  = (root_dir / left_name).resolve()
 right_path = (root_dir / right_name).resolve()
-logo_path  = (root_dir / logo_name).resolve()
 
 # Show status to avoid “blank” surprises
 with st.sidebar.expander("Image file status", expanded=False):
     st.write(f"Left : `{left_path}`  —  **{'FOUND' if left_path.exists() else 'MISSING'}**")
     st.write(f"Right: `{right_path}` —  **{'FOUND' if right_path.exists() else 'MISSING'}**")
-    st.write(f"Logo : `{logo_path}`  —  **{'FOUND' if logo_path.exists() else 'MISSING'}**")
 
 # ================== IMAGE HELPERS ==================
 def _data_url(path: Path):
@@ -177,3 +174,4 @@ if not st.session_state.results.empty:
     render_results_table_white(st.session_state.results)
     csv_bytes = st.session_state.results.to_csv(index=False).encode("utf-8")
     st.download_button("📥 Download CSV", csv_bytes, "prediction_results.csv", "text/csv")
+
