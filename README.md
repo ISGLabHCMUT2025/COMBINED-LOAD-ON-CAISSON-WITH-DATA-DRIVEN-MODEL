@@ -20,7 +20,7 @@ Once the tool is launched, you can easily input the parameters of your choice an
   *** Keep in mind that the predictive model achieves an accuracy level of R² = 99.45%, which means the results should be interpreted as predictions.
 
 
-Developer Info:
+Development Team:
 Assoc. Prof.: Van Qui Lai, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
 Dr. Sc.:     Duy Tan Tran, Ho Chi Minh City University of Transport
 Msc.:       Huu Nghia Bui, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
