@@ -1,11 +1,11 @@
 # COMBINED-LOAD-ON-CAISSON-WITH-DATA-DRIVEN-MODEL
 Includes a GUI for entering caisson parameters to predict load capacity
 
-First, it should be clarified that the GUI runs through the Anaconda Prompt, therefore you need to install Anaconda beforehand.
+First, it should be clarified that the GUI runs through the Anaconda Prompt, therefore you need to install Anaconda beforehand. Or you can also use any other IDLE or can use CMD directly of window.
 
 Second, you need to download the file thebestmodel.pkl to establish a "calculation factory." Once this factory is set up, any input data will be processed through it and return the corresponding prediction results.
 
-Third, open the Anaconda Prompt and navigate to the directory that contains the App.py file.
+Third, open the Anaconda Prompt and navigate or CMD with adminisrtator to the directory that contains the App.py file.
 
 Finally, enter the following command in the prompt: "python -m streamlit run app.py --server.port 8501"
 
